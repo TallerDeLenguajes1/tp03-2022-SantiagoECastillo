@@ -7,9 +7,8 @@ int main(){
     char *V[5];
     char *nombre;
 
-
     nombre = (char *) malloc(100*sizeof(char));
-
+    
     for(int i=0; i<5; i++){
         printf("Ingrese un nombre: ");
         gets(nombre);
